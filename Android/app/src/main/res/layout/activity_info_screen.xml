@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".InfoScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:background="@android:color/holo_blue_dark">
+
+                <ImageView
+                     android:id="@+id/imview_info_screen"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="start"/>
+        </LinearLayout>
+
+            <ListView
+                android:id="@+id/repos_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

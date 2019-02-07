@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitHub Viewer</string>
+    <string name="text_content">Username</string>
+    <string name="button_text">Search</string>
+
+    <string name="title_activity_info_screen">Information Screen</string>
+</resources>
